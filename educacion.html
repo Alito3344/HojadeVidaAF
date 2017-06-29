@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="utf-8">
+        <meta name="viewport" content="widt=device-width,user-scalable=no">
+        <meta name="autor" content="AF">
+        <meta name="keywords" content="html,css,xml, javascript">
+        <meta name="description" content="Educacion online">
+        <title> Educación </title>
+        <style>
+            p, pre {font-family: "calibri", Times, serif;}
+            h1,h2, h3 {font-family: "calibri", Times, serif;}
+        </style>
+    </head>
+  
+    <body>
+      <header> 
+           <img src="Imagenes/LogoAF.svg" width="8%"> 
+           <h1> Hoja de Vida </h1>
+           <h2> Datos personales: </h2>
+           <h3> <u> Apellido y nombre </u>: Faletti, Alejandro </h3>
+           <h3> <u> Fecha y lugar de nacimiento: </u> 4-8-79 - C.A.B.A. </h3>
+      </header>
+    
+        <nav>  
+            <a href="index.html"> Inicio / </a>
+            <a href="experiencia.html"> Experiencia </a>   
+        </nav>
+    
+        <section>
+           <h2> Educación </h2>
+           <table border="1"> 
+               <thead> 
+                   <th> Año </th> 
+                   <th> Institución </th> 
+                   <th> Lugar </th> 
+                   <th> ¿Culminó? </th>  
+               </thead>
+               <tbody>
+                   <td> 2000 </td>
+                   <td> ESBA </td> 
+                   <td> CABA </td>
+                   <td> SI </td>
+                       <tr> </tr>
+                   <td> &nbsp; </td>
+                   <td> &nbsp; </td>
+                   <td> &nbsp; </td>
+                   <td> &nbsp; </td>
+               </tbody>
+           </table> <br/>
+           
+           <h3> Agregar estudios </h3>
+             <form>
+                 <label> Año: </label>
+                    <select>
+                        <option> 2012 </option>
+                        <option> 2013 </option>
+                        <option> 2014 </option>
+                        <option> 2015 </option>
+                        <option> 2016 </option>
+                        <option> 2017 </option>
+                    </select> <br/> <br/>
+                   <label> Institución: </label> 
+                        <input type="text" maxlength="25" required> 
+                   <br/> <br/>
+                    <label> Lugar: </label>
+                        <input type="text" maxlength="25"> <br/> <br/>
+                    <label> ¿Culminó?: </label> <br/>
+                        <input type="radio" name="gender" value="Si"> Si <br>
+                        <input type="radio" name="gender" value="No"> No <br> <br/>
+                        <input type="submit" name="envio"> <br>                
+             </form>   
+        </section>  
+        <footer> 
+            <p> <strong> Contacto: </strong> <br/>
+                @ <a href="mailto:alefaletti@yahoo.com.ar?subject=contacto"> Contacto </a> <br/> 
+                <!-- En Chrome esta opción no me funciona....Si en Opera o IExp. -->
+                cel: 11-6670-5635 <br/>
+            </p>   
+        </footer>
+     </body>
+</html>
